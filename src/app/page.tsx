@@ -7,7 +7,7 @@ import CardMixPlaylist from './components/cardMixPlaylist'
 import SideMenu from './components/sideMenu'
 import MediaBar from './components/mediaBar'
 import BackAndForthButton from './components/backAndForthButton'
-//bg-gradient-to-b from-cyan-950 to-zinc-800
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col ">
@@ -61,13 +61,14 @@ export default function Home() {
           </div>
 
           <section className='grid grid-cols-2 gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7'>
-            <CardMixPlaylist alt="Foto Richie Kotzen - live 2015" img="/Live 2015 - Richie Kotzen.jpg" description="Richie Kotzen">Live 2015</CardMixPlaylist>
+            
             <CardMixPlaylist alt="Foto Bruce Springsteen" img="/Bruce Springsteen.jpg" description="Artista" rb={'50%'}>Bruce Springsteen</CardMixPlaylist>
+            <CardMixPlaylist alt="Foto Richie Kotzen - live 2015" img="/Live 2015 - Richie Kotzen.jpg" description="Richie Kotzen">Live 2015</CardMixPlaylist>
             <CardMixPlaylist alt="Foto Lynyrd Skynyrd - Street Survivors" img="/Street Survivors.jpg" description="Lynyrd Skynyrd" disable="hidden sm:block">Street Survivors</CardMixPlaylist>
             <CardMixPlaylist alt="Foto Pearl Jam - Ten" img="/Ten.jpg" description="Pearl Jam" disable="hidden lg:block">Ten</CardMixPlaylist>
             <CardMixPlaylist alt="Foto Don McLean - American Pie" img="/American Pie.png" description="Don McLean" disable="hidden xl:block">American Pie</CardMixPlaylist>
             <CardMixPlaylist alt="Foto Elton John" img="/Elton John.jpg" description="Artista" rb={'50%'} disable="hidden 2xl:block">Elton John</CardMixPlaylist>
-            <CardMixPlaylist alt="Foto (What's the Story) Morning Glory" img="/Morning Glory.jpg" description="Oasis" disable="hidden 2xl:block">(What's the Story) ...</CardMixPlaylist>
+            <CardMixPlaylist alt="Foto (What's the Story) Morning Glory" img="/Morning Glory.jpg" description="Oasis" disable="hidden 2xl:block">(Whats the Story) ...</CardMixPlaylist>
 
           </section>
         </main>

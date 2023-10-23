@@ -2,7 +2,7 @@ import Image from "next/image"
 import ButtonPlay from "./buttonPlay"
 
 
-export default (props: any) => {
+const CardPlayArtist = (props: any) => {
     return (
         <div className='group relative min-w-fit bg-zinc-600/50 hover:bg-zinc-500 rounded-md pr-4 flex items-center gap-1 hover:cursor-pointer overflow-hidden transition-all duration-500 ease-in-out'>
             <Image className="row-span-3"
@@ -22,8 +22,10 @@ export default (props: any) => {
             </div>
 
             <div className="text-center rounded-full absolute right-2 bg-transparent scale-0 group-hover:scale-100 transition-all duration-200 ease-linear">
-            <ButtonPlay/>
+                <ButtonPlay />
             </div>
         </div>
     )
 }
+
+export default CardPlayArtist;

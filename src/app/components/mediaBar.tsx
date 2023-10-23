@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Heart } from 'lucide-react'
 import { AiFillPlayCircle, AiFillStepBackward, AiFillStepForward } from 'react-icons/ai'
 import { PiShuffle, PiRepeatFill } from 'react-icons/pi'
 import { BiSolidVolumeFull } from 'react-icons/bi'
@@ -7,7 +6,7 @@ import { TbDevices2, TbMicrophone2 } from 'react-icons/tb'
 import { HiOutlineMenu } from 'react-icons/hi'
 
 
-export default () => {
+const MediaBar = () => {
     return (
         <>
             <div className="flex justify-center md:justify-between">
@@ -59,3 +58,5 @@ export default () => {
         </>
     )
 }
+
+export default MediaBar;

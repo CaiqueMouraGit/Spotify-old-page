@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-export default () => {
+const BackAndForthButton = () => {
     return (
         <>
             <button className='hover:bg-gray-500 p-2 rounded-full flex items-center justify-center'><ChevronLeft /></button>
@@ -9,3 +9,5 @@ export default () => {
 
     )
 }
+
+export default BackAndForthButton;
